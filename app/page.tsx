@@ -22,7 +22,7 @@ export default function Home() {
   }, []);
 
   if (user) {
-    return <p>{user.data.user.email}</p>;
+    return <p>{user.data.user?.email}</p>;
   }
 
   return (
