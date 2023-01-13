@@ -16,7 +16,9 @@ export default function Home() {
     async function getUser() {
       const user = await supabase.auth.getUser();
       console.log(user);
-      setUser(user);
+      if (user.data.user) {
+        setUser(user);
+      }
     }
     getUser();
   }, []);
