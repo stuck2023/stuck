@@ -1,7 +1,7 @@
 "use client";
 
 import { ChangeEvent, useState } from "react";
-import supabase from "../../config/supabase";
+import supabase from "../../public/config/supabase";
 import Link from "next/link";
 
 type FormProps = {

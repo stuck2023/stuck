@@ -1,5 +1,5 @@
 "use client";
-import supabase from "../config/supabase";
+import supabase from "../public/config/supabase";
 
 const Projects = () => {
   //   if (data) {
