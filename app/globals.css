@@ -1,3 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300;400;500;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+.text-custom-orange {
+  color: #fb3706cd;
+}
+
+.bg-custom-orange {
+  background-color: #fb3706cd;
+}
