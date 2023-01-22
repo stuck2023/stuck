@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { ChangeEvent, FC, MouseEvent, useState } from "react";
-import supabase from "../../public/config/supabase";
+import supabase from "../../config/supabase";
 
 interface pageProps {}
 

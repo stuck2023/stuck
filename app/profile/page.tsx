@@ -2,7 +2,7 @@
 
 import { getUnpackedSettings } from "http2";
 import { useEffect, useState } from "react";
-import supabase from "../../public/config/supabase";
+import supabase from "../../config/supabase";
 
 export default function Account() {
   //   const [loading, setLoading] = useState(true);

@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import supabase from "../public/config/supabase";
+import supabase from "../config/supabase";
 import { BiMouse } from "react-icons/bi";
 import { BsArrowDown } from "react-icons/bs";
 

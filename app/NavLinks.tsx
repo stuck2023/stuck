@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { FC, useEffect } from "react";
 import { useStore } from "zustand";
-import supabase from "../public/config/supabase";
+import supabase from "../config/supabase";
 
 interface NavLinksProps {}
 
