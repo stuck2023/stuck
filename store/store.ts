@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import supabase from "../public/config/supabase";
+import supabase from "../config/supabase";
 
 interface User {
   id: string;
